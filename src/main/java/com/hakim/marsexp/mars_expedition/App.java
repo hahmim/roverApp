@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import com.hakim.marsexp.exception.InvalidInputException;
 import com.hakim.marsexp.helper.AppHelper;
+import com.hakim.marsexp.helper.AppHelperImpl;
 import com.hakim.marsexp.util.ExpeditionConstants;
 
 
@@ -17,7 +18,7 @@ public class App
 	
 
 	public static void main(String[] args) {
-		AppHelper appHelper = new AppHelper();
+		AppHelper appHelper = new AppHelperImpl();
 		ArrayList<Character> cardinals = new ArrayList<Character>();
 		ArrayList<Character> validationList = new ArrayList<Character>();
 		cardinals.add(ExpeditionConstants.North);
